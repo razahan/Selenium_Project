@@ -1,0 +1,77 @@
+Locator
+----------------------------------------
+***Relative XPath: //Tagname[@Attribute='Value']
+
+// ---------------(Select current node)
+Tagname ----------(Tahname like input,id,Div,img etc)
+@ ----------------(Select Attribute)
+Attribute --------(Attribute Name)
+Value ------------(Value of the Attribute)
+
+--------------------------------------------------------------------
+<div class="im-description"> ... </div>
+
+div --------------- Tagname
+Class-------------- Attribute
+im-description ---- Value
+
+
+########################################################
+
+Element Find:
+Xpath: //input[@value='radio2']
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+Locate Heading with Tagname:
+Xpath: //h1
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+Locate Direct Child:
+Xpath: //fieldset /legend
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+Locate Mutiple Attributes:
+Xpath-01: //input[@type=\"checkbox\"][@id=\"checkBoxOption1\
+Xpath-02: //input[@type=\"checkbox\" and @id=\"checkBoxOption1\"]
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+Locate SubString:
+Xpath: //select[contains(@id,'dropdown-class-')]
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+Locate as Start With Syntax:
+Xpath: //select[starts-with(@id,'dropdown-class-')]
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+Preceding-Sibling: (Up side)
+Xpath: //select /option[@value='option2'] /preceding-sibling::option[1]
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+Following-Sibling: (Down side)
+Xpath: //select /option[@value='option2'] /following-sibling::option[1]
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+Without Use Tagname:
+Xpath: //*[@id='openwindow']
+Link: https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+
+
+
+
+

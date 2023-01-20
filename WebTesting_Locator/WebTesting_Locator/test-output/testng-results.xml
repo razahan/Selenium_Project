@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T21:51:31 BDT" name="Default suite" finished-at="2023-01-19T21:51:59 BDT" duration-ms="28095">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T21:51:31 BDT" name="Default test" finished-at="2023-01-19T21:51:59 BDT" duration-ms="28095">
+      <class name="locator.BasicTesting">
+        <test-method signature="testNameByPartialLink()[pri:0, instance:locator.BasicTesting@3febb011]" started-at="2023-01-19T21:51:31 BDT" name="testNameByPartialLink" finished-at="2023-01-19T21:51:59 BDT" duration-ms="28058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNameByPartialLink -->
+      </class> <!-- locator.BasicTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
